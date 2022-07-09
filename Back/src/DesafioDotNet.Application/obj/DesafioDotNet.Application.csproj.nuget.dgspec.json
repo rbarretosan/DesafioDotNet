@@ -1,0 +1,209 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\rbarr\\Desktop\\CSharp\\DesafioDotNet\\Back\\src\\DesafioDotNet.Application\\DesafioDotNet.Application.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\rbarr\\Desktop\\CSharp\\DesafioDotNet\\Back\\src\\DesafioDotNet.Application\\DesafioDotNet.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rbarr\\Desktop\\CSharp\\DesafioDotNet\\Back\\src\\DesafioDotNet.Application\\DesafioDotNet.Application.csproj",
+        "projectName": "DesafioDotNet.Application",
+        "projectPath": "C:\\Users\\rbarr\\Desktop\\CSharp\\DesafioDotNet\\Back\\src\\DesafioDotNet.Application\\DesafioDotNet.Application.csproj",
+        "packagesPath": "C:\\Users\\rbarr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rbarr\\Desktop\\CSharp\\DesafioDotNet\\Back\\src\\DesafioDotNet.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rbarr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\rbarr\\Desktop\\CSharp\\DesafioDotNet\\Back\\src\\DesafioDotNet.Domain\\DesafioDotNet.Domain.csproj": {
+                "projectPath": "C:\\Users\\rbarr\\Desktop\\CSharp\\DesafioDotNet\\Back\\src\\DesafioDotNet.Domain\\DesafioDotNet.Domain.csproj"
+              },
+              "C:\\Users\\rbarr\\Desktop\\CSharp\\DesafioDotNet\\Back\\src\\DesafioDotNet.Persistence\\DesafioDotNet.Persistence.csproj": {
+                "projectPath": "C:\\Users\\rbarr\\Desktop\\CSharp\\DesafioDotNet\\Back\\src\\DesafioDotNet.Persistence\\DesafioDotNet.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rbarr\\Desktop\\CSharp\\DesafioDotNet\\Back\\src\\DesafioDotNet.Domain\\DesafioDotNet.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rbarr\\Desktop\\CSharp\\DesafioDotNet\\Back\\src\\DesafioDotNet.Domain\\DesafioDotNet.Domain.csproj",
+        "projectName": "DesafioDotNet.Domain",
+        "projectPath": "C:\\Users\\rbarr\\Desktop\\CSharp\\DesafioDotNet\\Back\\src\\DesafioDotNet.Domain\\DesafioDotNet.Domain.csproj",
+        "packagesPath": "C:\\Users\\rbarr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rbarr\\Desktop\\CSharp\\DesafioDotNet\\Back\\src\\DesafioDotNet.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rbarr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rbarr\\Desktop\\CSharp\\DesafioDotNet\\Back\\src\\DesafioDotNet.Persistence\\DesafioDotNet.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rbarr\\Desktop\\CSharp\\DesafioDotNet\\Back\\src\\DesafioDotNet.Persistence\\DesafioDotNet.Persistence.csproj",
+        "projectName": "DesafioDotNet.Persistence",
+        "projectPath": "C:\\Users\\rbarr\\Desktop\\CSharp\\DesafioDotNet\\Back\\src\\DesafioDotNet.Persistence\\DesafioDotNet.Persistence.csproj",
+        "packagesPath": "C:\\Users\\rbarr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rbarr\\Desktop\\CSharp\\DesafioDotNet\\Back\\src\\DesafioDotNet.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rbarr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\rbarr\\Desktop\\CSharp\\DesafioDotNet\\Back\\src\\DesafioDotNet.Domain\\DesafioDotNet.Domain.csproj": {
+                "projectPath": "C:\\Users\\rbarr\\Desktop\\CSharp\\DesafioDotNet\\Back\\src\\DesafioDotNet.Domain\\DesafioDotNet.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+C:\Users\rbarr\Desktop\CSharp\DesafioDotNet\Back\src\DesafioDotNet.Application\bin\Debug\net5.0\DesafioDotNet.Application.deps.json
+C:\Users\rbarr\Desktop\CSharp\DesafioDotNet\Back\src\DesafioDotNet.Application\bin\Debug\net5.0\DesafioDotNet.Application.dll
+C:\Users\rbarr\Desktop\CSharp\DesafioDotNet\Back\src\DesafioDotNet.Application\bin\Debug\net5.0\DesafioDotNet.Application.pdb
+C:\Users\rbarr\Desktop\CSharp\DesafioDotNet\Back\src\DesafioDotNet.Application\bin\Debug\net5.0\DesafioDotNet.Domain.dll
+C:\Users\rbarr\Desktop\CSharp\DesafioDotNet\Back\src\DesafioDotNet.Application\bin\Debug\net5.0\DesafioDotNet.Persistence.dll
+C:\Users\rbarr\Desktop\CSharp\DesafioDotNet\Back\src\DesafioDotNet.Application\bin\Debug\net5.0\DesafioDotNet.Domain.pdb
+C:\Users\rbarr\Desktop\CSharp\DesafioDotNet\Back\src\DesafioDotNet.Application\bin\Debug\net5.0\DesafioDotNet.Persistence.pdb
+C:\Users\rbarr\Desktop\CSharp\DesafioDotNet\Back\src\DesafioDotNet.Application\obj\Debug\net5.0\DesafioDotNet.Application.csproj.AssemblyReference.cache
+C:\Users\rbarr\Desktop\CSharp\DesafioDotNet\Back\src\DesafioDotNet.Application\obj\Debug\net5.0\DesafioDotNet.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbarr\Desktop\CSharp\DesafioDotNet\Back\src\DesafioDotNet.Application\obj\Debug\net5.0\DesafioDotNet.Application.AssemblyInfoInputs.cache
+C:\Users\rbarr\Desktop\CSharp\DesafioDotNet\Back\src\DesafioDotNet.Application\obj\Debug\net5.0\DesafioDotNet.Application.AssemblyInfo.cs
+C:\Users\rbarr\Desktop\CSharp\DesafioDotNet\Back\src\DesafioDotNet.Application\obj\Debug\net5.0\DesafioDotNet.Application.csproj.CoreCompileInputs.cache
+C:\Users\rbarr\Desktop\CSharp\DesafioDotNet\Back\src\DesafioDotNet.Application\obj\Debug\net5.0\DesafioDotNet.Application.csproj.CopyComplete
+C:\Users\rbarr\Desktop\CSharp\DesafioDotNet\Back\src\DesafioDotNet.Application\obj\Debug\net5.0\DesafioDotNet.Application.dll
+C:\Users\rbarr\Desktop\CSharp\DesafioDotNet\Back\src\DesafioDotNet.Application\obj\Debug\net5.0\ref\DesafioDotNet.Application.dll
+C:\Users\rbarr\Desktop\CSharp\DesafioDotNet\Back\src\DesafioDotNet.Application\obj\Debug\net5.0\DesafioDotNet.Application.pdb
+C:\Users\rbarr\Desktop\CSharp\DesafioDotNet\Back\src\DesafioDotNet.Application\bin\Debug\net5.0\ref\DesafioDotNet.Application.dll

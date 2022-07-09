@@ -1,0 +1,12 @@
+C:\Users\rbarr\Desktop\CSharp\DesafioDotNet\Back\src\DesafioDotNet.Domain\bin\Debug\net5.0\DesafioDotNet.Domain.deps.json
+C:\Users\rbarr\Desktop\CSharp\DesafioDotNet\Back\src\DesafioDotNet.Domain\bin\Debug\net5.0\DesafioDotNet.Domain.dll
+C:\Users\rbarr\Desktop\CSharp\DesafioDotNet\Back\src\DesafioDotNet.Domain\bin\Debug\net5.0\DesafioDotNet.Domain.pdb
+C:\Users\rbarr\Desktop\CSharp\DesafioDotNet\Back\src\DesafioDotNet.Domain\obj\Debug\net5.0\DesafioDotNet.Domain.csproj.AssemblyReference.cache
+C:\Users\rbarr\Desktop\CSharp\DesafioDotNet\Back\src\DesafioDotNet.Domain\obj\Debug\net5.0\DesafioDotNet.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rbarr\Desktop\CSharp\DesafioDotNet\Back\src\DesafioDotNet.Domain\obj\Debug\net5.0\DesafioDotNet.Domain.AssemblyInfoInputs.cache
+C:\Users\rbarr\Desktop\CSharp\DesafioDotNet\Back\src\DesafioDotNet.Domain\obj\Debug\net5.0\DesafioDotNet.Domain.AssemblyInfo.cs
+C:\Users\rbarr\Desktop\CSharp\DesafioDotNet\Back\src\DesafioDotNet.Domain\obj\Debug\net5.0\DesafioDotNet.Domain.csproj.CoreCompileInputs.cache
+C:\Users\rbarr\Desktop\CSharp\DesafioDotNet\Back\src\DesafioDotNet.Domain\obj\Debug\net5.0\DesafioDotNet.Domain.dll
+C:\Users\rbarr\Desktop\CSharp\DesafioDotNet\Back\src\DesafioDotNet.Domain\obj\Debug\net5.0\ref\DesafioDotNet.Domain.dll
+C:\Users\rbarr\Desktop\CSharp\DesafioDotNet\Back\src\DesafioDotNet.Domain\obj\Debug\net5.0\DesafioDotNet.Domain.pdb
+C:\Users\rbarr\Desktop\CSharp\DesafioDotNet\Back\src\DesafioDotNet.Domain\bin\Debug\net5.0\ref\DesafioDotNet.Domain.dll
