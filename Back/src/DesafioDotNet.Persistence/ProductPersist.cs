@@ -6,7 +6,6 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using Microsoft.Data.SqlClient;
 using System.Collections.Generic;
-using System.Data;
 
 namespace DesafioDotNet.Persistence
 {
@@ -14,18 +13,18 @@ namespace DesafioDotNet.Persistence
     {
         private readonly DesafioDotNetContext _context;
         private readonly String _connectionString;
-        private readonly SqlConnection sqlConnection;
+        private readonly SqlConnection _sqlConnection;
         
         public ProductPersist(DesafioDotNetContext context)
         {
             _context = context;
             _connectionString = _context.Database.GetConnectionString();
-            sqlConnection = new SqlConnection(_connectionString);
+            _sqlConnection = new SqlConnection(_connectionString);
         }
 
         public async Task<Product>AddProduct(Product entity)
         {
-            SqlCommand sqlCommand = new SqlCommand("InsertProduct", sqlConnection);
+            SqlCommand sqlCommand = new SqlCommand("InsertProduct", _sqlConnection);
             sqlCommand.CommandType = System.Data.CommandType.StoredProcedure;
 
             sqlCommand.Parameters.Add(new SqlParameter("@createdAt", entity.createdAt));
@@ -34,14 +33,14 @@ namespace DesafioDotNet.Persistence
             sqlCommand.Parameters.Add(new SqlParameter("@brand", entity.brand));
             sqlCommand.Parameters.Add(new SqlParameter("@updatedAt", entity.updatedAt));
             
-            await sqlConnection.OpenAsync();
+            await _sqlConnection.OpenAsync();
 
             int returnId = -1;
             var objectReturn = await sqlCommand.ExecuteScalarAsync();
 
             sqlCommand.Dispose();
 
-            if (sqlConnection.State == System.Data.ConnectionState.Open) sqlConnection.Close();
+            if (_sqlConnection.State == System.Data.ConnectionState.Open) _sqlConnection.Close();
 
             if(objectReturn != null)
             {
@@ -55,28 +54,28 @@ namespace DesafioDotNet.Persistence
 
         public async void DeleteProduct(int id)
         {
-            SqlCommand sqlCommand = new SqlCommand("DeleteProduct", sqlConnection);
+            SqlCommand sqlCommand = new SqlCommand("DeleteProduct", _sqlConnection);
             sqlCommand.CommandType = System.Data.CommandType.StoredProcedure;
 
             sqlCommand.Parameters.Add(new SqlParameter("@id", id));
             
-            await sqlConnection.OpenAsync();
+            await _sqlConnection.OpenAsync();
 
             await sqlCommand.ExecuteNonQueryAsync();
 
             sqlCommand.Dispose();
 
-            if (sqlConnection.State == System.Data.ConnectionState.Open) sqlConnection.Close();
+            if (_sqlConnection.State == System.Data.ConnectionState.Open) _sqlConnection.Close();
         }
 
         public async Task<Product[]> GetAllProductsAsync()
         {
-            SqlCommand sqlCommand = new SqlCommand("GetAllProducts", sqlConnection);
+            SqlCommand sqlCommand = new SqlCommand("GetAllProducts", _sqlConnection);
             sqlCommand.CommandType = System.Data.CommandType.StoredProcedure;
             
             var result = new List<Product>();                        
 
-            await sqlConnection.OpenAsync();
+            await _sqlConnection.OpenAsync();
 
             var product = await sqlCommand.ExecuteReaderAsync();            
 
@@ -99,18 +98,18 @@ namespace DesafioDotNet.Persistence
                 }
             }
 
-            await sqlConnection.CloseAsync();
+            await _sqlConnection.CloseAsync();
 
             return result.ToArray();
         }
 
         public async Task<Product> GetProductByIdAsync(int id)
         {
-            SqlCommand sqlCommand = new SqlCommand("GetProductById", sqlConnection);
+            SqlCommand sqlCommand = new SqlCommand("GetProductById", _sqlConnection);
             sqlCommand.CommandType = System.Data.CommandType.StoredProcedure;
             sqlCommand.Parameters.Add(new SqlParameter("@Id", id));
             
-            await sqlConnection.OpenAsync();
+            await _sqlConnection.OpenAsync();
 
             var product = await sqlCommand.ExecuteReaderAsync();
 
@@ -128,14 +127,14 @@ namespace DesafioDotNet.Persistence
                 updatedAt = (DateTime)product["updatedAt"]
             };
 
-            await sqlConnection.CloseAsync();
+            await _sqlConnection.CloseAsync();
 
             return result;
         }
 
         public async Task<Product>UpdateProduct(int id, Product entity)
         {
-            SqlCommand sqlCommand = new SqlCommand("UpdateProduct", sqlConnection);
+            SqlCommand sqlCommand = new SqlCommand("UpdateProduct", _sqlConnection);
             sqlCommand.CommandType = System.Data.CommandType.StoredProcedure;
 
             sqlCommand.Parameters.Add(new SqlParameter("@id", id));
@@ -144,13 +143,13 @@ namespace DesafioDotNet.Persistence
             sqlCommand.Parameters.Add(new SqlParameter("@brand", entity.brand));
             sqlCommand.Parameters.Add(new SqlParameter("@updatedAt", entity.updatedAt));
             
-            await sqlConnection.OpenAsync();
+            await _sqlConnection.OpenAsync();
 
             await sqlCommand.ExecuteNonQueryAsync();
 
             sqlCommand.Dispose();
 
-            if (sqlConnection.State == System.Data.ConnectionState.Open) sqlConnection.Close();
+            if (_sqlConnection.State == System.Data.ConnectionState.Open) _sqlConnection.Close();
 
             return entity;
         }

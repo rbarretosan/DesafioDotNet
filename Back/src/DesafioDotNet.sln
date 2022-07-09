@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioDotNet.Application", "DesafioDotNet.Application\DesafioDotNet.Application.csproj", "{0C25823C-5559-4DD3-A717-DE41CA63F24C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioDotNet.API", "DesafioDotNet.API\DesafioDotNet.API.csproj", "{6425F901-773B-4337-A807-B9A915443F59}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioDotNet.API.ADO", "DesafioDotNet.API.ADO\DesafioDotNet.API.ADO.csproj", "{6425F901-773B-4337-A807-B9A915443F59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioDotNet.API.EF", "DesafioDotNet.API.EF\DesafioDotNet.API.EF.csproj", "{6425F901-773B-4337-A807-B9A915443F59}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioDotNet.Domain", "DesafioDotNet.Domain\DesafioDotNet.Domain.csproj", "{D0E05169-6EDD-44FB-8C56-DA4885577634}"
 EndProject

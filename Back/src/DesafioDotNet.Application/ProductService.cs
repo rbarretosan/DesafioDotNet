@@ -39,6 +39,8 @@ namespace DesafioDotNet.Application
             {
                 var product = await  _productPersist.GetProductByIdAsync(id);
 
+                if(product == null) return null;
+
                 model.Id = id;
 
                 _mapper.Map(model, product);
@@ -58,12 +60,12 @@ namespace DesafioDotNet.Application
             try
             {
                 var product = await  _productPersist.GetProductByIdAsync(id);
-                if(product == null) throw new Exception("product para delete nao encontrado.");
+
+                if(product == null) throw new Exception("Produto para delete nao encontrado.");
 
                 _productPersist.DeleteProduct(id);
 
-                return true;
-                
+                return true;                
             }
             catch (Exception ex)
             {
@@ -76,7 +78,9 @@ namespace DesafioDotNet.Application
             try
             {
                 var product = await _productPersist.GetAllProductsAsync();
+
                 if(product == null) return null;
+
                 var result = _mapper.Map<ProductDto[]>(product);
 
                 return result;
@@ -92,6 +96,7 @@ namespace DesafioDotNet.Application
             try
             {
                 var product = await _productPersist.GetProductByIdAsync(id);
+                
                 if(product == null) return null;
 
                 var result = _mapper.Map<ProductDto>(product);
